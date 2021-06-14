@@ -414,8 +414,6 @@ if arch != "Darwin":
   SConscript(['selfdrive/logcatd/SConscript'])
   
 if real_arch == "x86_64":
-  SConscript(['tools/nui/SConscript'])
-  SConscript(['tools/lib/index_log/SConscript'])
   SConscript(['tools/truck_sim/cap/SConscript'])
 
 external_sconscript = GetOption('external_sconscript')
